@@ -8,7 +8,7 @@ import os  # 用於檢查檔案是否存在
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # --- 在這裡貼上你的 Discord Webhook URL ---
-DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1481486099263262861/B5qzMw56OEMVEzGw27i_chHv_QBxVQfKw8gnOTQt99JYUjQySkDWbMfyk5aP4O7aVQDy"
+DISCORD_WEBHOOK_URL = "你的DISCORD網址"
 
 def send_to_discord(filepath, stock_no):
     """將生成的 CSV 傳送到 Discord"""
